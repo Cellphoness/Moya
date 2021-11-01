@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   ReactiveSwift and RxSwift extensions exist as well. Instructions for installation
   are in [the README](https://github.com/Moya/Moya).
   EOS
-  s.homepage     = "https://github.com/Moya/Moya"
+  s.homepage     = "https://github.com/Cellphoness/Moya"
   s.license      = { :type => "MIT", :file => "License.md" }
   s.author             = { "Ash Furrow" => "ash@ashfurrow.com" }
   s.social_media_url   = "http://twitter.com/ashfurrow"
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.12'
   s.tvos.deployment_target = '10.0'
   s.watchos.deployment_target = '3.0'
-  s.source       = { :git => "https://github.com/Moya/Moya.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/Cellphoness/Moya.git", :tag => s.version }
   s.default_subspec = "RxSwift"
   s.swift_version = '5.0'
   s.cocoapods_version = '>= 1.4.0'  
